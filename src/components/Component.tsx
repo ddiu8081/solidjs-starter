@@ -7,7 +7,7 @@ interface Props {
 export const MyComponent: Component<Props> = (props) => {
   return (
     <div border border-red>
-      My Component: { props.text }
+      My Component: {props.text}
     </div>
   )
 }

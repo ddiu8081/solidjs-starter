@@ -1,4 +1,5 @@
-import { MyComponent } from "./components/Component"
+import type { Component } from 'solid-js'
+import { MyComponent } from './components/Component'
 
 const App: Component = () => {
   return (
